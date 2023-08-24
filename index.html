@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable-mixin</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="body">
+    <div class="login">
+        <div class="container" id="container">
+            <div class="title">
+                <h1 class="outline" id="open">OPEN</h1>
+                <h1 class="crm" id="crm">CRM</h1>
+
+                <div class="mode">
+                    <button class="moon" id="moon"><i class="fa-regular fa-moon mooni"></i></button>
+                    <button class="sun" id="sun"><i class="fa-regular fa-sun suni"></i></button>
+                </div>
+
+            </div>
+
+            <h2 id="title">Registration</h2>
+
+            <div class="form">
+                <form id="form">
+                    <label for="email" id="label">E-mail</label>
+                    <input class="email" type="email" required placeholder="E-mail">
+                    <label for="email" id="label1">Surname</label>
+                    <input class="surname" type="text" required placeholder="Surname">
+                    <label for="email" id="label2">Name</label>
+                    <input class="name" type="text" required placeholder="Name">
+                    <label for="email" id="label3">Password</label>
+                    <input class="password" id="password" type="password" required placeholder="Password">
+                    <label for="email" id="label4">Re-enter Password</label>
+                    <input class="re-enter" id="re-enter" type="password" required placeholder="Re-enter Password">
+
+                    <div class="form-submit">
+                        <button class="submit" id="submit">Register</button>
+                        <button class="a"><a href="./login.html">Login</a></button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
