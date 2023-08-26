@@ -19,6 +19,8 @@ const show1 = document.querySelector('#show1')
 const hide1 = document.querySelector('#hide1')
 const show2 = document.querySelector('#show2')
 const hide2 = document.querySelector('#hide2')
+const show3 = document.querySelector('#show3')
+const hide3 = document.querySelector('#hide3')
 
 
 
@@ -77,6 +79,27 @@ sun.addEventListener('click', ()=>{
 
 })
 
+show3.addEventListener('click', () => {
+
+    show3.style.display = "none"
+    hide3.style.display = "inline-block"
+
+    const type = reEnter.getAttribute("type") === "password" ? "text" : "text";
+    reEnter.setAttribute("type", type)
+
+})
+
+hide3.addEventListener('click', () => {
+
+    hide3.style.display = "none"
+    show3.style.display = "inline-block"
+
+    const type = reEnter.getAttribute("type") === "text" ? "password" : "password";
+    reEnter.setAttribute("type", type)
+
+
+})
+
 show1.addEventListener('click', () => {
 
     show1.style.display = "none"
@@ -119,3 +142,4 @@ hide2.addEventListener('click', () => {
 
 
 })
+

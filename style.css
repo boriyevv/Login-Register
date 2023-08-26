@@ -74,6 +74,9 @@ form {
     border: 2px solid green;
     color: green;
 }
+.password-wrapper {
+    position: relative;
+}
 
 .password {
     width: 100%;
@@ -87,7 +90,7 @@ form {
 #show1 {
     position: absolute;
     right: 2%;
-    top: 16%;
+    top: 14%;
     cursor: pointer;
     color: rgb(65, 64, 64);
 }
@@ -95,7 +98,7 @@ form {
 #hide1 {
     position: absolute;
     right: 2%;
-    top: 16%;
+    top: 14%;
     display: none;
     cursor: pointer;
     color: rgb(65, 64, 64);
@@ -123,6 +126,22 @@ form {
     position: absolute;
     right: 2%;
     top: 71%;
+    display: none;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+#show3 {
+    position: absolute;
+    right: 2%;
+    top: 31%;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+
+#hide3 {
+    position: absolute;
+    right: 2%;
+    top: 31%;
     display: none;
     cursor: pointer;
     color: rgb(65, 64, 64);
