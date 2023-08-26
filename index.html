@@ -38,9 +38,18 @@
                     <label for="email" id="label2">Name</label>
                     <input class="name" type="text" required placeholder="Name">
                     <label for="email" id="label3">Password</label>
-                    <input class="password" id="password" type="password" required placeholder="Password">
-                    <label for="email" id="label4">Re-enter Password</label>
-                    <input class="re-enter" id="re-enter" type="password" required placeholder="Re-enter Password">
+                    <div class="password-wrapper">
+                        <input class="password" id="password" type="password" required placeholder="Password">
+                        <label for="email" id="label4">Re-enter Password</label>
+                        <input class="re-enter" id="re-enter" type="password" required placeholder="Re-enter Password">
+                    
+                        <i class="fa-solid fa-eye" id="show1"></i>
+                        <i class="fa-solid fa-eye-slash" id="hide1"></i>
+                        <!-- ReEnter ga -->
+                        <i class="fa-solid fa-eye" id="show2"></i>
+                        <i class="fa-solid fa-eye-slash" id="hide2"></i>
+                    
+                    </div>
 
                     <div class="form-submit">
                         <button class="submit" id="submit">Register</button>

@@ -12,7 +12,13 @@ let label1 = document.getElementById('label1')
 let label2 = document.getElementById('label2')
 let label3 = document.getElementById('label3')
 let label4 = document.getElementById('label4')
+// let label5 = document.getElementById('label5')
+// let label6 = document.getElementById('label6')
 let title = document.getElementById('title')
+const show1 = document.querySelector('#show1')
+const hide1 = document.querySelector('#hide1')
+const show2 = document.querySelector('#show2')
+const hide2 = document.querySelector('#hide2')
 
 
 
@@ -40,10 +46,12 @@ moon.addEventListener('click', ()=>{
     open1.style.color = 'white'
     label.style.color = 'white'
     label1.style.color = 'white'
+    title.style.color = 'white'
     label2.style.color = 'white'
     label3.style.color = 'white'
     label4.style.color = 'white'
-    title.style.color = 'white'
+    // label5.style.color = 'white'
+    // label6.style.color = 'white'
 
 
 });
@@ -58,11 +66,56 @@ sun.addEventListener('click', ()=>{
     crm.style.color = 'rgba(0, 0, 0, 0.614)'
     label.style.color = 'black'
     label1.style.color = 'black'
+    title.style.color = 'black'
     label2.style.color = 'black'
     label3.style.color = 'black'
     label4.style.color = 'black'
-    title.style.color = 'black'
+    // label5.style.color = 'black'
+    // label6.style.color = 'black'
 
+
+
+})
+
+show1.addEventListener('click', () => {
+
+    show1.style.display = "none"
+    hide1.style.display = "inline-block"
+
+    const type = password.getAttribute("type") === "password" ? "text" : "text";
+    password.setAttribute("type", type)
+
+})
+
+hide1.addEventListener('click', () => {
+
+    hide1.style.display = "none"
+    show1.style.display = "inline-block"
+
+    const type = password.getAttribute("type") === "text" ? "password" : "password";
+    password.setAttribute("type", type)
+
+
+})
+
+
+show2.addEventListener('click', () => {
+
+    show2.style.display = "none"
+    hide2.style.display = "inline-block"
+
+    const type = reEnter.getAttribute("type") === "password" ? "text" : "text";
+    reEnter.setAttribute("type", type)
+
+})
+
+hide2.addEventListener('click', () => {
+
+    hide2.style.display = "none"
+    show2.style.display = "inline-block"
+
+    const type = reEnter.getAttribute("type") === "text" ? "password" : "password";
+    reEnter.setAttribute("type", type)
 
 
 })

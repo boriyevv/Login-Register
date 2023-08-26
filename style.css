@@ -84,6 +84,23 @@ form {
     border: 2px solid green;
     color: green;
 }
+#show1 {
+    position: absolute;
+    right: 2%;
+    top: 16%;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+
+#hide1 {
+    position: absolute;
+    right: 2%;
+    top: 16%;
+    display: none;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+
 
 .re-enter {
     width: 100%;
@@ -93,6 +110,22 @@ form {
     margin-bottom: 20px;
     border: 2px solid green;
     color: green;
+}
+#show2 {
+    position: absolute;
+    right: 2%;
+    top: 71%;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+
+#hide2 {
+    position: absolute;
+    right: 2%;
+    top: 71%;
+    display: none;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
 }
 
 .form-submit {
