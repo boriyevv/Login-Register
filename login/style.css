@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F0F0F0;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.title {
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.outline {
+    color: green;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: green;
+}
+
+.crm {
+    color: rgba(0, 0, 0, 0.614);
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+form {
+    max-width: 800px;
+    padding: 100px;
+    background: #fff;
+    border-radius: 32px;
+}
+
+.email {
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    color: green;
+}
+
+
+
+.password-wrapper {
+    position: relative;
+}
+
+.password {
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    color: green;
+}
+
+
+
+
+#show {
+    position: absolute;
+    right: 2%;
+    top: 31%;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+
+#hide {
+    position: absolute;
+    right: 2%;
+    top: 31%;
+    display: none;
+    cursor: pointer;
+    color: rgb(65, 64, 64);
+}
+
+.form-submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    width: 49%;
+    height: 50px;
+    border: 2px solid green;
+    background: transparent;
+    color: green;
+    border-radius: 8px;
+}
+
+.submit:hover {
+    border: rgb(3, 74, 3);
+    background: green;
+    color: white;
+    transition: all 400ms ease;
+}
+
+.a {
+    width: 49%;
+    height: 50px;
+    border: 2px solid red;
+    background: transparent;
+    color: red;
+    border-radius: 8px;
+}
+
+.a:hover {
+    border: rgb(59, 11, 11);
+    background: red;
+    color: white;
+    transition: all 400ms ease;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.a:hover a {
+    color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+.mode{
+    position: relative;
+    width: 50px;
+    margin-left: 40px;
+    /* margin-top: 10px; */
+}
+
+.moon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #F0F0F0;
+    position: absolute;
+    border: transparent;
+    display: inline-block;
+    background-color: rgb(20, 21, 47);
+}
+
+.sun{
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: transparent;
+    border-radius: 50%;
+    background-color: #F0F0F0;
+
+}
+
+.mooni{
+    font-size: 40px;
+}
+
+.suni{
+    font-size: 40px;
+}
